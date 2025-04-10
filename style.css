@@ -45,8 +45,8 @@ body {
   }
   
   .circle-name {
-    width: 215px;
-    height: 215px;
+    width: 275px;
+    height: 275px;
     border-radius: 50%;
     overflow: hidden;
     background: white;
@@ -86,8 +86,8 @@ body {
     background: #ff99cc;
     border: none;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     font-size: 1.4em;
     color: white;
     cursor: pointer;
@@ -148,7 +148,7 @@ body {
     color: #c71610; 
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) { /* only ipad */  
+@media (min-width: 768px) and (max-width: 1024px) {
   .header {
     width: 100%;
     padding: 40px;
@@ -181,8 +181,8 @@ body {
   }
   
   .circle-name {
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
     justify-content: center;
     align-items: center;
   }
