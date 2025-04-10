@@ -181,8 +181,8 @@ body {
   }
   
   .circle-name {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     justify-content: center;
     align-items: center;
   }
@@ -202,13 +202,13 @@ body {
   }
 
   .button-grid button {
-    width: 80px;  
-    height: 80px;
+    width: 120px;  
+    height: 120px;
   }
 
   .button-grid .label {
     display: inline-block;
-    width: 1ch;
+    width: 1.1ch;
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
