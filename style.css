@@ -199,8 +199,6 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    display: flex;
-    overflow: hidden;
   }
 
   .button-grid button {
@@ -209,7 +207,7 @@ body {
   }
 
   .button-grid .label {
-    display: inline-block;
+    display: flex;
     width: 1ch;
     overflow: hidden;
     text-overflow: clip; 
