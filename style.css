@@ -181,8 +181,8 @@ body {
   }
   
   .circle-name {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     justify-content: center;
     align-items: center;
   }
@@ -195,7 +195,7 @@ body {
   }
 
   .button-grid {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -212,7 +212,7 @@ body {
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   .button-grid button:hover .label {
