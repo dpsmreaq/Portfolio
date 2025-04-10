@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: #ffcce0;
+    color: #4a4a4a;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    background-color: #ff90b4;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .portfolio-tag { 
+    color: #ffffff;
+    padding: 0px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 7px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .main-content {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+  
+  .intro-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .circle-name {
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #aaa;
+  }
+  
+  .circle-name img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .intro-text h1 {
+    margin: 0;
+    font-size: 3em;
+    text-align: left;
+  }
+  
+  .subtext {
+    font-size: 1em;
+    color: #4a4a4a;
+    opacity: 0.8;
+    text-align: left;
+  }
+  
+  .button-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .button-grid button {
+    background: #ff99cc;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 1.4em;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #999;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-grid button:hover {
+    width: 140px;
+    border-radius: 140px;
+    background-color: #ff66b2;
+  }
+  
+  .button-grid .label {
+    display: inline-block;
+    overflow: hidden;
+    width: 1.2ch;
+    transition: width 0.3s ease;
+  }
+  
+  .button-grid button:hover .label {
+    width: 100%;
+  }
+  
+  .contact {
+    font-size: 1em;
+    color: #4a4a4a;
+  }
+  
+  .phone {
+    margin-top: 5px;
+  }
+  
+  .social-icons a {
+    color: #4a4a4a;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:nth-child(1):hover {
+    color: #06c755; 
+  }
+  
+  .social-icons a:nth-child(2):hover {
+    color: #E1306C; 
+  }
+  
+  .social-icons a:nth-child(3):hover {
+    color: #3b5998; 
+  }
+  
+  .social-icons a:nth-child(4):hover {
+    color: #c71610; 
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) { /* only ipad */  
+  .header {
+    width: 100%;
+    padding: 40px;
+    position: relative;
+  }
+
+  .portfolio-tag {
+    font-size: 30px;
+    padding: 5px 20px;
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    max-width: 90vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .main-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }  
+  
+  html, body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+  .circle-name {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro h1 {
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .button-grid {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .button-grid button {
+    width: 80px;  
+    height: 80px;
+  }
+
+  .button-grid .label {
+    display: inline-block;
+    width: 1ch;
+    overflow: hidden;
+    text-overflow: clip; 
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  .button-grid button:hover .label {
+    width: 100%;
+  }
+
+  .social-icons a {
+    font-size: 20px; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
