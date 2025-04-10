@@ -181,8 +181,8 @@ body {
   }
   
   .circle-name {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     justify-content: center;
     align-items: center;
   }
@@ -202,8 +202,8 @@ body {
   }
 
   .button-grid button {
-    width: 120px;  
-    height: 120px;
+    width: 100px;  
+    height: 100px;
   }
 
   .button-grid .label {
@@ -212,15 +212,15 @@ body {
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 1.4em;
   }
 
   .button-grid button:hover .label {
-    width: 100%;
+    width: 140px;
   }
 
   .social-icons a {
-    font-size: 1.4em; 
+    font-size: 20px; 
     justify-content: center;
     text-align: center;
     align-items: center;
