@@ -208,7 +208,7 @@ body {
 
   .button-grid .label {
     display: flex;
-    width: 0.9ch;
+    width: 0.5ch;
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
