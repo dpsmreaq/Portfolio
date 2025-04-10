@@ -212,7 +212,7 @@ body {
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
-    font-size: 1.4em;
+    font-size: 2em;
   }
 
   .button-grid button:hover .label {
