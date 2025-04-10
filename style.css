@@ -181,8 +181,8 @@ body {
   }
   
   .circle-name {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     justify-content: center;
     align-items: center;
   }
@@ -195,7 +195,7 @@ body {
   }
 
   .button-grid {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -220,7 +220,7 @@ body {
   }
 
   .social-icons a {
-    font-size: 20px; 
+    font-size: 1.4em; 
     justify-content: center;
     text-align: center;
     align-items: center;
