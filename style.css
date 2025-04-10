@@ -208,7 +208,7 @@ body {
 
   .button-grid .label {
     display: inline-block;
-    width: 1ch;
+    width: 0.9ch;
     overflow: hidden;
     text-overflow: clip; 
     white-space: nowrap;
@@ -216,7 +216,7 @@ body {
   }
 
   .button-grid button:hover .label {
-    width: 200px;
+    width: 250px;
   }
 
   .social-icons a {
